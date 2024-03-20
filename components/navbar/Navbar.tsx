@@ -26,6 +26,7 @@ export const Navbar = () => {
           key={navItem.path} 
           className=" m-2" 
           {...navItem}
+          
         >
           {navItem.icon}
           <span className=" px-1">{navItem.text}</span>
