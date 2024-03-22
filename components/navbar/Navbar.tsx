@@ -24,11 +24,10 @@ export const Navbar = () => {
       {navItems.map((navItem) => (
         <ActiveLink 
           key={navItem.path} 
-          className=" m-2" 
           {...navItem}
         >
-          {navItem.icon}
-          <span className=" px-1">{navItem.text}</span>
+          {/* {navItem.icon}
+          <span className=" px-1">{navItem.text}</span> */}
         </ActiveLink>
       ))}
     </nav>
