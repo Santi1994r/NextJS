@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function PricingPage() {
     return (
         <>
-            <h1 className=" text-5xl text-red-400">Pricing Page</h1>
+            <h1 className=" text-5xl text-red-400 p-24">Pricing Page</h1>
         </>
     )
 }
